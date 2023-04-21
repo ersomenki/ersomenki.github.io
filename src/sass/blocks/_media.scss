@@ -174,7 +174,8 @@
     }
    
 }
-@media (max-width: 320px) {
+@media (max-width: 320px) {    
+    
     .promo {
         .header {
             margin: 5px 20px;
@@ -213,10 +214,15 @@
 
     }
     .modal {
+        padding: 24px 13px 17px 10px;
         width: 250px;
+        &__close {
+            right: 0;
+            font-size: 40px;
+        }
         .feed-form {
-            margin: 36px auto;
-            width: 250px;
+            
+            width: 230px;
         }
     }
     .consultation {
